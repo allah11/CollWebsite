@@ -153,7 +153,7 @@ background: rgba(53, 231, 124, 0.94);
 
 z-index: 99;
 display: block;
-width: 100%;
+width: 1920px;
 height: 500px;
 left: 0px;
 top: 0px;
@@ -167,7 +167,7 @@ background-image: url("/img/png/kall2.png");
 
 z-index: 101;
 position: absolute;
-width: 100%;
+width: 216px;
 max-width: 216px;
 height: 85px;
 left: 371px;
@@ -190,7 +190,7 @@ color: #000000;
 {
 	/* Фото */
 
-	z-index: 10200;
+	z-index: 105;
     color: #000000;
     width: 200px;
     height: 200px;
@@ -632,6 +632,151 @@ background: #C4C4C4;
 border-radius: 25px;
 }
 
-@media (max-width: 500px) {
-	
+@media (max-width: 977px) {
+	.form1
+	{
+		width: 960px;
+	}
+	.form2
+	{
+		width: 960px;
+	}
+	.form3
+	{
+		width: 960px;
+	}
+	.form4
+	{
+		width: 960px;
+	}
+	.age
+	{
+		width: 108px;
+		left: 300px;
+		font-size: 26px;
+	}
+	.anker
+	{
+		width: 350px;
+		left: 603px;
+		font-size: 26px;
+	}
+	.avatar
+	{
+		font-size: 26px;
+		left: 75.75px;
+	}
+	.end
+	{
+		width: 960px;
+	}
+	.FIO
+	{
+		width: 300px;
+		left: 300px;
+		font-size: 26px;
+	}
+	.foto
+	{
+		max-width: 960px;
+	}
+	.kontakt
+	{
+		width: 222px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.navik
+	{
+		width: 335.5px;
+		left: 325.5px;
+		font-size: 26px;
+	}
+	.obr
+	{
+		width: 517.5px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.opit
+	{
+		width: 517.5px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.osebe
+	{
+		width: 303px;
+		left: 613px;
+		font-size: 26px;
+	}
+	.r_obr
+	{
+		width: 517.5px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.r_opit
+	{
+		width: 517.5px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.r_osebe
+	{
+		width: 303px;
+		left: 613px;
+		font-size: 26px;
+	}
+	.r_zapdol
+	{
+		width: 303px;
+		left: 613px;
+		font-size: 26px;
+	}
+	.ramkaavatar
+	{
+		width: 121px;
+		left: 64.5px;
+		font-size: 26px;
+	}
+	.ramkainfo
+	{
+		width: 960px;
+		font-size: 26px;
+	}
+	.top
+	{
+		width: 960px;
+	}
+	.zapdol
+	{
+		width: 303px;
+		left: 613px;
+		font-size: 26px;
+	}
+	.zyazik
+	{
+		width: 208.5px;
+		left: 707.5px;
+		font-size: 26px;
+	}
+	.r_kontakt
+	{
+		width: 222px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.r_navik
+	{
+		width: 335.5px;
+		left: 325.5px;
+		font-size: 26px;
+	}
+	.r_znania
+	{
+		width: 208.5px;
+		left: 707.5px;
+		font-size: 26px;
+	}
 }
