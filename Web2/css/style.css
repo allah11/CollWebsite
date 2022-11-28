@@ -247,6 +247,16 @@ height: 334px;
 left: 1349px;
 top: 479px;
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding: 30px;
+padding-left: 40px;
+
+color: #000000;
+
 background: #C4C4C4;
 border-radius: 25px;
 }
