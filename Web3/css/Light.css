@@ -1,0 +1,792 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* roboto-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.top
+{
+	/* Frame 1 */
+
+	z-index: 101;
+	position: absolute;
+	width: 1920px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	
+	background: rgba(53, 231, 124, 1);
+}
+
+.form1
+{
+	/* Личная информация */
+
+z-index: 99;
+position: absolute;
+width: 1920px;
+height: 921px;
+left: 0px;
+top: 80px;
+
+background: #D9D3D3;
+}
+
+.form2
+{
+	/* Образование должность */
+
+z-index: 99;
+position: absolute;
+width: 1920px;
+height: 921px;
+left: 0px;
+top: 1001px;
+
+background: #EFE2E2;
+}
+
+.form3
+{
+	/* Опыт работы о себе */
+
+z-index: 99;
+position: absolute;
+width: 1920px;
+height: 921px;
+left: 0px;
+top: 1922px;
+
+background: #D9D3D3;
+}
+
+.form4
+{
+	/* Контакты навыки знание зыков */
+
+z-index: 99;
+position: absolute;
+width: 1920px;
+height: 921px;
+left: 0px;
+top: 2843px;
+
+background: #EFE2E2;
+}
+
+.end
+{
+	/* Frame 6 */
+
+
+position: absolute;
+width: 1920px;
+height: 80px;
+left: 0px;
+top: 3764px;
+
+background: rgba(53, 231, 124, 0.94);
+}
+
+.foto
+{
+	/* Фото заголовок */
+
+z-index: 99;
+display: block;
+width: 1920px;
+height: 500px;
+left: 0px;
+top: 0px;
+
+background-image: url("/img/png/kall2.png");
+}
+
+.age
+{
+	/* Возраст */
+
+z-index: 101;
+position: absolute;
+width: 216px;
+max-width: 216px;
+height: 85px;
+left: 371px;
+top: 546px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.avatar
+{
+	/* Фото */
+
+	z-index: 105;
+    color: #000000;
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    position: absolute;
+    left: 151px;
+    top: 340px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+	background-color: #C4C4C4;
+}
+
+.FIO
+{
+	/* ФИО */
+
+z-index: 101;
+position: absolute;
+width: 649px;
+height: 85px;
+left: 371px;
+top: 461px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.anker
+{
+	/* Рамка с желаемой должностью */
+
+z-index: 101;
+position: absolute;
+width: 533px;
+height: 334px;
+left: 1349px;
+top: 479px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding: 30px;
+padding-left: 40px;
+
+color: #000000;
+
+background: #C4C4C4;
+border-radius: 25px;
+}
+
+.ramkaavatar
+{
+	/* Рамка с фото */
+
+z-index: 101;
+position: absolute;
+width: 242px;
+height: 241px;
+left: 129px;
+top: 420px;
+
+background: #C4C4C4;
+border-radius: 167px;
+}
+
+.ramkainfo
+{
+	/* Рамка с возрастом */
+
+z-index: 100;
+position: absolute;
+width: 1920px;
+height: 370px;
+left: 0px;
+top: 461px;
+
+background: #E5E5E5;
+border-radius: 40px;
+}
+
+.obr
+{
+	/* Образование */
+
+z-index: 100;
+position: absolute;
+width: 1035px;
+height: 85px;
+left: 116px;
+top: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.zapdol
+{
+	/* Запрашиваема должность */
+
+z-index: 100;
+position: absolute;
+width: 606px;
+height: 85px;
+left: 1226px;
+top: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.r_obr
+{
+	/* Рамка с Образованием */
+
+z-index: 100;
+position: absolute;
+width: 1035px;
+height: 700px;
+left: 116px;
+top: 107px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding: 15px;
+display: block;
+align-items: baseline;
+text-align: left;
+overflow-wrap: break-word;
+
+background: #C4C4C4;
+border-radius: 25px;
+}
+
+.r_zapdol
+{
+	/* Рамка с запрос должости */
+
+z-index: 100;
+position: absolute;
+width: 606px;
+height: 700px;
+left: 1226px;
+top: 107px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding: 15px;
+display: block;
+align-items: baseline;
+text-align: left;
+overflow-wrap: break-word;
+
+background: #C4C4C4;
+border-radius: 25px;
+}
+
+.opit
+{
+	/* Опыт работы */
+
+
+position: absolute;
+width: 1035px;
+height: 85px;
+left: 116px;
+top: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.osebe
+{
+	/* О себе */
+
+
+position: absolute;
+width: 606px;
+height: 85px;
+left: 1226px;
+top: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+
+}
+
+.r_opit
+{
+/* Рамка с Опытом работы */
+
+
+position: absolute;
+width: 1035px;
+height: 700px;
+left: 116px;
+top: 107px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding: 15px;
+display: block;
+align-items: baseline;
+text-align: left;
+overflow-wrap: break-word;
+
+background: #C4C4C4;
+border-radius: 25px;
+}
+
+.r_osebe
+{
+	/* Рамка с информацией о себе */
+
+
+position: absolute;
+width: 606px;
+height: 700px;
+left: 1226px;
+top: 107px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding: 15px;
+display: block;
+align-items: baseline;
+text-align: left;
+overflow-wrap: break-word;
+
+background: #C4C4C4;
+border-radius: 25px;
+}
+
+.kontakt
+{
+	/* Контакты */
+
+z-index: 100;
+position: absolute;
+width: 444px;
+height: 85px;
+left: 116px;
+top: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.navik
+{
+/* Навыки */
+
+z-index: 100;
+position: absolute;
+width: 671px;
+height: 85px;
+left: 651px;
+top: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.zyazik
+{
+/* Знание языков */
+
+z-index: 100;
+position: absolute;
+width: 417px;
+height: 85px;
+left: 1415px;
+top: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.r_kontakt
+{
+	/* Рамка с Контактными данными */
+
+
+position: absolute;
+width: 444px;
+height: 700px;
+left: 116px;
+top: 107px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding: 15px;
+display: block;
+align-items: baseline;
+text-align: left;
+overflow-wrap: break-word;
+
+background: #C4C4C4;
+border-radius: 25px;
+}
+
+.r_navik
+{
+/* Рамка с Навыками */
+
+
+position: absolute;
+width: 671px;
+height: 700px;
+left: 651px;
+top: 107px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding: 15px;
+display: block;
+align-items: baseline;
+text-align: left;
+overflow-wrap: break-word;
+
+background: #C4C4C4;
+border-radius: 25px;
+}
+
+.r_znania
+{
+	/* Рамка со знаниями языков */
+
+
+position: absolute;
+width: 417px;
+height: 700px;
+left: 1415px;
+top: 111px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding: 15px;
+display: block;
+align-items: baseline;
+text-align: left;
+overflow-wrap: break-word;
+
+background: #C4C4C4;
+border-radius: 25px;
+}
+
+@media (max-width: 977px) {
+	.form1
+	{
+		width: 960px;
+	}
+	.form2
+	{
+		width: 960px;
+	}
+	.form3
+	{
+		width: 960px;
+	}
+	.form4
+	{
+		width: 960px;
+	}
+	.age
+	{
+		width: 108px;
+		left: 300px;
+		font-size: 26px;
+	}
+	.anker
+	{
+		width: 350px;
+		left: 603px;
+		font-size: 26px;
+	}
+	.avatar
+	{
+		font-size: 26px;
+		left: 75.75px;
+	}
+	.end
+	{
+		width: 960px;
+	}
+	.FIO
+	{
+		width: 300px;
+		left: 300px;
+		font-size: 26px;
+	}
+	.foto
+	{
+		max-width: 960px;
+	}
+	.kontakt
+	{
+		width: 222px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.navik
+	{
+		width: 335.5px;
+		left: 325.5px;
+		font-size: 26px;
+	}
+	.obr
+	{
+		width: 517.5px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.opit
+	{
+		width: 517.5px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.osebe
+	{
+		width: 303px;
+		left: 613px;
+		font-size: 26px;
+	}
+	.r_obr
+	{
+		width: 517.5px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.r_opit
+	{
+		width: 517.5px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.r_osebe
+	{
+		width: 303px;
+		left: 613px;
+		font-size: 26px;
+	}
+	.r_zapdol
+	{
+		width: 303px;
+		left: 613px;
+		font-size: 26px;
+	}
+	.ramkaavatar
+	{
+		width: 121px;
+		left: 64.5px;
+		font-size: 26px;
+	}
+	.ramkainfo
+	{
+		width: 960px;
+		font-size: 26px;
+	}
+	.top
+	{
+		width: 960px;
+	}
+	.zapdol
+	{
+		width: 303px;
+		left: 613px;
+		font-size: 26px;
+	}
+	.zyazik
+	{
+		width: 208.5px;
+		left: 707.5px;
+		font-size: 26px;
+	}
+	.r_kontakt
+	{
+		width: 222px;
+		left: 58px;
+		font-size: 26px;
+	}
+	.r_navik
+	{
+		width: 335.5px;
+		left: 325.5px;
+		font-size: 26px;
+	}
+	.r_znania
+	{
+		width: 208.5px;
+		left: 707.5px;
+		font-size: 26px;
+	}
+}
